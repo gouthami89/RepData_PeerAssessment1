@@ -1,7 +1,6 @@
 ---
-<<<<<<< HEAD
 title: "PA1_template"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -126,29 +125,3 @@ for (type in c("weekend", "weekday")) {
     plot(steps.type, type = "l", main = type)
 }
 ```
-=======
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 3452f87052e0ac271203e222ed122a13f490a80a
